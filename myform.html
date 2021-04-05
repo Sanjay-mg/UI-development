@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>My form</title>
+        <link rel="stylesheet" href="myform.css">
+    </head>
+    <body>
+        <form onclick="doSomething()">
+            <input type="text" placeholder="First Name">
+            <div onclick="action2()">
+                <input type="radio" name="travel">Domestic
+                <input type="radio" name="travel">International
+            </div>
+            <br>
+            <h3>Skills</h3>
+            <div onclick="doSomething()">
+                <input type="checkbox">java
+                <input type="checkbox">javascript
+                <input type="checkbox">springboot
+            </div>
+            <br>
+            <label>Date of birth</label>
+            <input type="date">
+            <br>
+            <select multiple>
+                <option value="option1">option1</option>
+                <option value="option2">option2</option>
+                <option value="option3">option3</option>
+                <option value="option4">option4</option>
+            </select>
+            <br>
+        </form>
+        <button onclick="add()">Save</button>
+        <table>
+            
+        </table>
+    </body>
+    <script src="myform.js"></script>
+</html>
