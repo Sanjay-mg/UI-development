@@ -1,4 +1,4 @@
-function doSomething(){
+function add(){
     console.log(event);
 }
 
